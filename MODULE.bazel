@@ -28,7 +28,6 @@ python.toolchain(
     is_default = True,
     python_version = PYTHON_VERSION,
 )
-use_repo(python)
 
 # Checker rule for CopyRight checks/fixs
 bazel_dep(name = "score_cr_checker", version = "0.3.1")
